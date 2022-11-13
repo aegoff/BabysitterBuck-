@@ -54,7 +54,7 @@ In the commandline, after navigating to the root folder, run:
 pytest --cov
 ```
 
-**Ideas for Improvements/Additioal Functionality:**
+**Ideas for Improvements/Additional Functionality:**
 There would be several things I would like to adjust given a longer timeline, but these would be my thoughts:
 - Implement Pytest Fixtures (as seen in conftest.py) in logic_test.py to simplify code, where possible
 - Allow users to alter their rate per hour
