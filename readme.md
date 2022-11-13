@@ -34,7 +34,7 @@ Overall, this was a lot of fun, and I'm grateful for the opportunity to complete
 (Please forgive me if this is excessive)
 
 Running the app:
-Given the python3 is installed and a virtual environment is set up and activated, in the commandline, after navigating to the root folder, run: 
+Given the python is installed (Python 3.7+ recommended) and a virtual environment is set up and activated, in the commandline, after navigating to the root folder, run: 
 ```
 pip install -r requirements.txt
 python app.py
