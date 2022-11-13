@@ -18,14 +18,14 @@ Additional assumptions I made:
 - Children should go to bed before midnight
 - Rounding of pay to the next integer occurs at the sub-total level. Babysitters got to make those buck$. 
 
-##Implementation:
+##Implementation:##
 I decided to implement a Flask app (python) to make this kata. Why? Even though a GUI was not meant to be the focus of the app, well, user interfaces are helpful to humans. But making a pretty and human-friendly app wasn't the only reason for this. HTML5 API enables simple implementation of a client-side validation system very quickly, and personally, I preferred that over multiple "input()" entries or a Jupyter Notebook, where I wouldn't necessarily have that validation built-in. In other words, setting up a Flask app enabled me to collect user input quickly and in a predictable format. Okay, there was a small bonus n that it limited the number of unit tests that I needed to be write. 
 **Frontend:** This is a pretty minimalistic Bootstrap5/HTML5 frontend and a tiny bit of CSS. There's only 1 HTML file with some Jinja logic and some minor client-side validation from the HTML5 API (as mentioned above). There's one image which I borrowed from FontAwesome ("sack-dollar"). 
 **Backend:** Python. No database. App.py contains the routes and app constructor, while logic.py contains the logic. Pytest was used for unit and functional testing. Pytest-cov was the pytest plugin I used to enable creation of coverage reports.  
 
 Overall, this was a lot of fun, and I'm grateful for the opportunity to complete this kata. 
 
-##Documentation:
+##Documentation:##
 (Please forgive me if this is excessive)
 
 Running the app:
@@ -49,7 +49,7 @@ In the commandline, after navigating to the root folder, run:
 pytest --cov
 ```
 
-##Ideas for Improvements/Additioal Functionality:
+##Ideas for Improvements/Additioal Functionality:##
 There would be several things I would like to adjust given a longer timeline, but these would be my thoughts:
 - Implement Pytest Fixtures (as seen in conftest.py) in logic_test.py to simplify code, where possible
 - Allow users to alter their rate per hour
